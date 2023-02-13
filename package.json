@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy": "npx cypress open --config-file config/cypress.contact.config.js",
+    "cy:sp": "npx cypress open --config-file config/cypress.contact.sp.config.js",
+    "cy:run": "npx cypress run --config-file config/cypress.contact.config.js",
+    "cy:clear": "cypress cache clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/cli": "^1.18.0",
+    "@percy/cypress": "^3.1.2",
+    "cypress": "^12.4.1",
+    "date-fns": "^2.29.3",
+    "defu": "^6.1.2"
+  }
+}
